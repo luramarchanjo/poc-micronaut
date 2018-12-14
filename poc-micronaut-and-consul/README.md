@@ -1,13 +1,13 @@
-# Consul
+# 1 - Consul
 
 Run the command `docker run --rm -p 8500:8500 consul`
 
-# Applications
+# 2 - Applications
 
 Run service-one application
 
 Run service-two application
 
-# Request
+# 3 - Test
 
 Do a request GET http://localhost:8081/booking
