@@ -1,0 +1,16 @@
+micronaut:
+  application:
+    name: service-one
+  server:
+    port: ${SERVER_PORT:8080}
+
+consul:
+  client:
+    registration:
+      enabled: true
+    defaultZone: "${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}"
+
+endpoints:
+  health:
+    enabled: true
+    sensitive: false
